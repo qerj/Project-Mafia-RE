@@ -1,4 +1,4 @@
-//#include <MinHook.h>
+//#include <MinHook.h> gonna use this later like its imperial vs metric system, or PRIMAL GL
 #include <iostream>
 #include <Windows.h>
 #include <math.h>
@@ -86,28 +86,3 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ulReasonForCall, LPVOID lpReserved)
 
 	return TRUE;
 }
-
-
-
-
-
-//yields zero so idk
-			//randomFunc ranFunc = reinterpret_cast<randomFunc>(0x006036D0);
-			//ranFunc(0x006C099C, 0, 1, 40, "syskill");
-//if (GetAsyncKeyState(VK_F5) & 1)
-	//{ //it seems as if removing the extra pointer in the LPVOID, It fixed the hook error problem for some reason the hook still works the same without the error message
-		//if (MH_CreateHook((LPVOID)0x2143EA81390, &AddOxygenHook, (LPVOID*)fnAddOxygen) != MH_OK) MessageBoxA(0, "Create Hook Error", 0, 0);
-		//if (MH_EnableHook((LPVOID)0x2143EA81390) != MH_OK) MessageBoxA(0, "EnableHook Error", 0,0);
-	//}
-	// 
-//float(__thiscall* fnAddOxygen)(float, float);
-//
-//float __stdcall AddOxygenHook(float degreeAngle, float ratio)
-//{
-//	degreeAngle = 6.0f;
-//	ratio = 420.0f;
-//	return 2.0f * atan(tan(0.5f * degreeAngle * 0.017453292f) * ratio) * 57.29578f;
-//}
-//fnAddOxygen HookName = fnAddOxygen(moduleBase + 0x00121C2C); //makes this to be a function to hook
-
-//random function hook 6036D0
