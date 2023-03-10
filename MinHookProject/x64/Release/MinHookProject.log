@@ -1,0 +1,6 @@
+﻿  Source.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 6 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  MinHookProject.vcxproj -> C:\Users\forwa\source\repos\MinHookProject\x64\Release\MinHookProject.dll
